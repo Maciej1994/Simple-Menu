@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cake_background"
+    tools:context=".DessertMain">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="165dp"
+        android:background="@drawable/cake_style">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/top_cake"/>
+<TextView
+    android:id="@+id/cake_name_1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/apple_pie"
+    android:layout_marginLeft="25dp"
+    android:layout_marginTop="50dp"
+    android:gravity="center"
+    android:textColor="@color/black"
+    android:textSize="25sp"
+    android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cost_cake_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_apple_pie"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="52dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/decrement_1"
+            android:onClick="decrement_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/button_cake"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/amount_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_one"
+            android:layout_marginTop="55dp"
+            android:layout_marginLeft="290dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/increment_1"
+            android:onClick="increment_1"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="310dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/button_cake_two"
+            android:textColor="@color/white"/>
+
+        ...........
+
+        <TextView
+            android:id="@+id/cake_name_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pear_cake"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/cost_cake_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cost_pear_pie"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="102dp"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold"/>
+
+        <Button
+            android:id="@+id/decrement_2"
+            android:onClick="decrement_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/button_cake"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/amount_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_one"
+            android:layout_marginTop="105dp"
+            android:layout_marginLeft="290dp"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+        <Button
+            android:id="@+id/increment_2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:onClick="increment_2"
+            android:layout_marginLeft="310dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="100dp"
+            android:text="@string/button_cake_two"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/back_to_menu"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="400dp"
+        android:backgroundTint="#C3BF9B"
+        android:text="@string/botton_menu"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+</LinearLayout>
